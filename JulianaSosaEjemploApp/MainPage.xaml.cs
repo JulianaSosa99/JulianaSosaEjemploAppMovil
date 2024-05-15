@@ -9,7 +9,7 @@
             InitializeComponent();//realiza la interpretacion a cs
         }
 
-        private void OnCounterClicked(object sender, EventArgs e) //de los conceptos mas importantes "EVENT HANDLER: le decimos a la app que quiere que haag cuando sucede un evento"
+        private void OnCounterClicked(object sender, EventArgs e) //de los conceptos mas importantes "EVENT HANDLER: le decimos a la app que quiere que haag cuando sucede un evento hola"
         {
             count++;
 
