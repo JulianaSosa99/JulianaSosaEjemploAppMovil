@@ -6,7 +6,7 @@ namespace JulianaSosaEjemploApp
     {
         public static MauiApp CreateMauiApp()
         {
-            var builder = MauiApp.CreateBuilder();
+            var builder = MauiApp.CreateBuilder(); //inyecta codigos que necesitas para la base de datos
             builder
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
